@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+body{
+    background:linear-gradient(30deg, rgb(233, 137, 12) ,rgb(228, 64, 24));
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    font-family: 'Bungee', cursive; 
+    color:black;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+nav{
+    margin: 2px;
+    display: flex;
+}
+header .logo img{
+    width: 100px;
+    height: max-content;
+}
+header .logo{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 600px;
+}
+header{
+    display: flex;
+    min-height: 160px;
+    justify-content: space-between;
+    background:radial-gradient(darkblue,black);
+    align-items: center;
+}
+.links a{
+    color: aliceblue;
+    text-decoration: none;   
+    float: right;
+}
+.nav-menu-link{
+    margin-right: 50px;
+}
+.blog{
+    margin-right: 50px;
+}
+.blog:hover{
+    color:orangered;
+}
+.nav-menu-link:hover{
+    color:orangered;
+}
+footer{
+    background:radial-gradient(darkblue,black);
+}
+
+@media (max-width:700px) 
+{
+    .header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+.headerbL{
+    display: flex;
+    min-height: 160px;
+    justify-content: center;
+    background:radial-gradient(darkblue,black);
+    align-items: center;
+    color: white;
+}
